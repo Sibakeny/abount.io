@@ -94,8 +94,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 #nav.affix {
 	position: fixed;
 	top: 0;
-	width: 100%
+	width: 100%;
 }
+
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
@@ -237,7 +238,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 	margin-bottom: 30px;
 }
 /* Skills Section */
-#skills {
+#skills, #skills-others {
 	padding: 100px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
 	background: rgb(107,77,168); /* Old browsers */
@@ -246,18 +247,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 	background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 ); /* IE6-9 */
 }
-#skills h2 {
+#skills h2, #skills-others h2 {
 	color: #fff;
 }
-#skills hr {
+#skills hr, #skills-others hr {
 	background: rgba(255,255,255,0.3);
 }
-#skills .skill {
+#skills .skill, #skills-others .skill {
 	margin-bottom: 40px;
 	text-align: center;
 	padding: 0px;
 }
-#skills .skill h4 {
+#skills .skill h4, #skills-others .skill h4 {
 	font-weight: 600;
 	color: #fff;
 }
